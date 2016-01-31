@@ -1,0 +1,161 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation. 
+     So make sure to include your name as part of the screenTitle -->
+<screenTitle>Soham's Game</screenTitle>
+<maxStringSize>50</maxStringSize>
+
+<frameCap>60</frameCap>
+<framesAreCapped>false</framesAreCapped>
+<frameMax>300</frameMax>
+<username>sohamap</username>
+
+<view>
+  <width>1024</width>
+  <height>576</height>
+</view>
+
+<world>
+  <width>10000</width>
+  <height>960</height>
+</world>
+
+<clock>
+  <locX>10</locX>
+  <locY>10</locY>
+</clock>
+
+
+<back1>
+  <file>images/1.png</file>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+  <factor>2</factor>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>1280</width>
+  <height>960</height>
+  <transparency>false</transparency>
+</back1>
+
+<back2>
+  <file>images/2.png</file>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+  <factor>1</factor>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>1280</width>
+  <height>960</height>
+  <transparency>false</transparency>
+</back2>
+
+<back3>
+  <file>images/3.png</file>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+  <factor>3</factor>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>1280</width>
+  <height>960</height>
+  <transparency>false</transparency>
+</back3>
+
+<font name="font">
+  <file>font/dyslexic-bold.otf</file>
+  <size>16</size>
+  <red>255</red>
+  <green>255</green>
+  <blue>255</blue>
+  <unused>0</unused>
+</font>
+
+<Dragon>
+  <file>images/dragonFULL2.png</file>
+  <startLoc x="300" y="450"/>
+
+  <frames>12</frames>
+  <frameInterval>100</frameInterval>
+  <chunk>
+    <size>50</size>
+    <distance>200</distance>
+  </chunk>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>325</width>
+  <height>145</height>
+  <speedX>-150</speedX>
+  <speedY>100</speedY>
+  <speed>400</speed>
+  <durability>900</durability>
+  <transparency>true</transparency>
+</Dragon>
+
+<Enemy>
+  <file>images/enemyblue.png</file>
+  <startLoc x="300" y="450"/>
+
+  <frames>12</frames>
+  <frameInterval>100</frameInterval>
+  <chunk>
+    <size>50</size>
+    <distance>200</distance>
+  </chunk>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>211</width>
+  <height>94</height>
+  <speedX>-150</speedX>
+  <speedY>100</speedY>
+  <speed>100</speed>
+  <transparency>true</transparency>
+</Enemy>
+
+
+<Fireball>
+  <file>images/sprite2.png</file>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>75</width>
+  <height>75</height>
+  <startLoc x="320" y="240"/>
+  <chunk>
+    <size>20</size>
+    <distance>100</distance>
+  </chunk>
+  <speedX>0</speedX>
+  <speedY>175</speedY>
+  <transparency>true</transparency>
+</Fireball>
+
+<Firegust>
+  <file>images/fireshot.png</file>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>75</width>
+  <frameInterval>175</frameInterval>
+  <height>29</height>
+  <startLoc x="320" y="240"/>
+  <speedX>500</speedX>
+  <speedY>175</speedY>
+  <transparency>true</transparency>
+</Firegust>
+
+<EnemyBullet>
+  <file>images/enemybullet.png</file>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>35</width>
+  <height>20</height>
+  <frameInterval>350</frameInterval>
+  <startLoc x="320" y="240"/>
+  <speedX>500</speedX>
+  <speedY>175</speedY>
+  <transparency>true</transparency>
+</EnemyBullet>
+
+</GameData>

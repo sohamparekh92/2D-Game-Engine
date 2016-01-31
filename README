@@ -1,0 +1,35 @@
+Name: Soham Ashok Parekh
+Clemson Email Address: sohamap@clemson.edu
+
+Project no: 6
+Project due date: 12/4/2015
+
+Project description: 
+
+The objective of the game is to reach the end of the world by traveling towards right and collect as many points as you can along the way. Along the way you can explode fireballs by shooting at them or shoot the enemy. Shooting the fireball will fetch you 5 points whereas shooting the enemy will fetch you 10 points. If you get hit by enemy bullet, it will incur a damage of 5 health points. Exploding the fireball will rejuvinate health by 1 point. If your health bar goes zero, the player will explode and you will lose the game.
+
+The AI is programmed in the enemy class. The way it works is that it follows the player and after getting close enough, it starts shooting. If you engage in combat, i.e try to shoot back at it, it will oscillate in vertical direction if it is in the range.
+
+HUD is displayed for two seconds, to view it again, press F1 (which will be again displayed for two seconds before dissapearing). The collision strategy and uses per pixel collision. Shoot bullets by pressing SPACE. The bullets use object pooling and information appears on top right corner HUD which can be toggled using F2 key. You can reset the game by pressing R key. Press G for God mode.
+
+All the artwork is done freehand using photoshop or paint.
+
+------------------------------------------
+| Bullets Pool  |  bullets.h             |
+------------------------------------------
+| HUD           |  HUD.h                 |
+------------------------------------------
+| Player        | player.h               |
+------------------------------------------
+| game.xml      |  game.xml              |
+------------------------------------------
+| Leaks         |     0                  | 
+------------------------------------------
+| F4/frames     |   300                  |
+------------------------------------------
+| Submission    |  asg5.tar.gz           | 
+------------------------------------------
+| README        |   README               |
+------------------------------------------
+
+
