@@ -8,22 +8,13 @@ HUD is displayed for two seconds, to view it again, press F1 (which will be agai
 
 All the artwork is done freehand using photoshop or paint.
 
-------------------------------------------
-| Bullets Pool  |  bullets.h             |
-------------------------------------------
-| HUD           |  HUD.h                 |
-------------------------------------------
-| Player        | player.h               |
-------------------------------------------
-| game.xml      |  game.xml              |
-------------------------------------------
-| Leaks         |     0                  | 
-------------------------------------------
-| F4/frames     |   300                  |
-------------------------------------------
-| Submission    |  asg5.tar.gz           | 
-------------------------------------------
-| README        |   README               |
-------------------------------------------
 
+-------------------------------------------------------------------------------------------
+In order to play the game:								  |
+											  |
+1. Download the contents of this folder on a Linux Machine (Preferably Ubuntu)		  |
+2. Change directory to the current folder						  |
+3. Enter the command 'make' via Terminal  						  |
+4. Then enter the command './run'							  |
+-------------------------------------------------------------------------------------------
 
